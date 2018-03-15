@@ -15,5 +15,6 @@ namespace MediatorExample.Core.Pipeline
             var response = await next();
             return response;
         }
+
     }
 }
